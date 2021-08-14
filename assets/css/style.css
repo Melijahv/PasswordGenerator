@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+
+
+}
+.pClass
+{
+
+    position: fixed;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.548);
+
+}
+.fClass
+{
+  
+  position: relative;
+  top:5%;
+  margin: auto;
+  height:auto;
+  width: 250px;
+  border-radius: 3%;
+  border: hidden;
+  background-color: #f9fbfd;
+
+}
+#pwInput{
+
+  margin-top: 10px;
+  position: relative;
+ 
+  width:auto;
+
+}
+p{
+  
+  position: relative;
+  top:10px;
+  left:5px;
+  width: 240px;
+  border: 2px dashed #c0c7cf;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: hsl(206, 17%, 28%);
+ 
+
+}
+#pFormat{
+
+  border: hidden;
+  position: relative;
+  left: 40px;
+  width: 150px;
+  justify-content: center;
+  background-color:hsla(0, 0%, 100%, 0);
+
+}
+body {
+  font-family: sans-serif;
+  background-color: #f9fbfd;
+}
+
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: hsl(206, 17%, 28%);
+}
+
+
+button[disabled] {
+  cursor: default;
+  background: #c0c7cf;
+}
+
+.float-right {
+  float: right;
+}
+
+#password {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 85px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px dashed #c0c7cf;
+  border-radius: 6px;
+  resize: none;
+  overflow: hidden;
+}
+
+.btn {
+    
+  border: none;
+  background-color: hsl(360, 91%, 36%);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: hsl(0, 0%, 100%);
+  position:relative;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 22px;
+  line-height: 22px;
+  margin-top:50px;
+  padding: 14px 34px;
+  cursor: pointer;
+  
+}
+#slideValue{
+
+position: absolute;
+background-color: hsl(0, 0%, 100%);;
+color: black;
+left: 50%;
+top :-40%;
+transform: translate(-50%,-50%);
+}
